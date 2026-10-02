@@ -1,0 +1,15 @@
+2026-06-28 12:24:16.016 - factTable - Using run configuration [Pentaho local]
+2026-06-28 12:24:16.016 - factTable - Dispatching started for transformation [factTable]
+2026-06-28 12:24:16.026 - Table output.0 - Connected to database [healthcare_mysql] (commit=1000)
+2026-06-28 12:27:22.708 - staging.0 - Finished reading query, closing connection
+2026-06-28 12:27:22.709 - staging.0 - Finished processing (I=43659, O=0, R=0, W=43659, U=0, E=0)
+2026-06-28 12:29:31.570 - joinPatient_id.0 - Finished processing (I=43659, O=0, R=43659, W=43659, U=0, E=0)
+2026-06-28 12:29:31.579 - doctor_id.0 - Finished processing (I=43659, O=0, R=43659, W=43659, U=0, E=0)
+2026-06-28 12:29:32.706 - hospital_id.0 - Finished processing (I=43659, O=0, R=43659, W=43659, U=0, E=0)
+2026-06-28 12:29:32.709 - condition_id.0 - Finished processing (I=43659, O=0, R=43659, W=43659, U=0, E=0)
+2026-06-28 12:29:32.711 - date_id.0 - Finished processing (I=43659, O=0, R=43659, W=43659, U=0, E=0)
+2026-06-28 12:29:32.713 - insurance_id.0 - Finished processing (I=43659, O=0, R=43659, W=43659, U=0, E=0)
+2026-06-28 12:29:32.727 - admission_id.0 - Finished processing (I=43659, O=0, R=43659, W=43659, U=0, E=0)
+2026-06-28 12:29:32.741 - Select values.0 - Finished processing (I=0, O=0, R=43659, W=43659, U=0, E=0)
+2026-06-28 12:29:32.743 - Add sequence.0 - Finished processing (I=0, O=0, R=43659, W=43659, U=0, E=0)
+2026-06-28 12:29:32.939 - Table output.0 - Finished processing (I=0, O=43659, R=43659, W=43659, U=0, E=0)

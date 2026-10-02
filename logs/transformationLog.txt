@@ -1,0 +1,37 @@
+2026-06-28 12:24:03.994 - Transformation_validation - Using run configuration [Pentaho local]
+2026-06-28 12:24:03.994 - Transformation_validation - Dispatching started for transformation [Transformation_validation]
+2026-06-28 12:24:04.011 - Table output.0 - Connected to database [healthcare_mysql] (commit=1000)
+2026-06-28 12:24:04.031 - CSV file input.0 - Header row skipped in file 'file:///E:/healthcare_pipeline/rawData/healthcare_dataset.csv'
+2026-06-28 12:24:04.134 - CSV file input.0 - Line number : 50000
+2026-06-28 12:24:04.137 - Select values.0 - linenr 50000
+2026-06-28 12:24:04.139 - Sort rows.0 - Linenr 50000
+2026-06-28 12:24:04.145 - CSV file input.0 - Finished processing (I=55501, O=0, R=0, W=55500, U=0, E=0)
+2026-06-28 12:24:04.151 - Select values.0 - Finished processing (I=0, O=0, R=55500, W=55500, U=0, E=0)
+2026-06-28 12:24:04.580 - Sort rows.0 - Finished processing (I=0, O=0, R=55500, W=55500, U=0, E=0)
+2026-06-28 12:24:04.615 - Unique rows.0 - Linenr 50000
+2026-06-28 12:24:04.662 - Unique rows.0 - Finished processing (I=0, O=0, R=55500, W=50000, U=0, E=0)
+2026-06-28 12:24:04.761 - Replace in string.0 - Finished processing (I=0, O=0, R=50000, W=50000, U=0, E=0)
+2026-06-28 12:24:04.833 - String operations.0 - Finished processing (I=0, O=0, R=50000, W=50000, U=0, E=0)
+2026-06-28 12:24:04.838 - gender valid.0 - Finished processing (I=0, O=0, R=50000, W=50000, U=0, E=0)
+2026-06-28 12:24:04.843 - blood valid.0 - Finished processing (I=0, O=0, R=50000, W=50000, U=0, E=0)
+2026-06-28 12:24:04.847 - admission valid.0 - Finished processing (I=0, O=0, R=50000, W=50000, U=0, E=0)
+2026-06-28 12:24:04.851 - test valid.0 - Finished processing (I=0, O=0, R=50000, W=50000, U=0, E=0)
+2026-06-28 12:24:04.851 - Filter rows 3.0 - linenr 50000
+2026-06-28 12:24:04.857 - Filter rows 3.0 - Finished processing (I=0, O=0, R=50000, W=50000, U=0, E=0)
+2026-06-28 12:24:04.862 - invalid.0 - Finished processing (I=0, O=6260, R=6259, W=6259, U=0, E=0)
+2026-06-28 12:24:04.864 - Select values 2.0 - Finished processing (I=0, O=0, R=43741, W=43741, U=0, E=0)
+2026-06-28 12:24:04.868 - Select values 3.0 - Finished processing (I=0, O=0, R=43741, W=43741, U=0, E=0)
+2026-06-28 12:24:04.873 - Filter rows.0 - Finished processing (I=0, O=0, R=43741, W=43741, U=0, E=0)
+2026-06-28 12:24:04.878 - invalid2.0 - Finished processing (I=0, O=83, R=82, W=82, U=0, E=0)
+2026-06-28 12:24:04.880 - Dummy (do nothing).0 - Finished processing (I=0, O=0, R=43659, W=43659, U=0, E=0)
+2026-06-28 12:24:04.887 - If field value is null.0 - Finished processing (I=0, O=0, R=43659, W=43659, U=0, E=0)
+2026-06-28 12:24:04.893 - Calculator.0 - Finished processing (I=0, O=0, R=43659, W=43659, U=0, E=0)
+2026-06-28 12:24:04.897 - If field value is null 2.0 - Finished processing (I=0, O=0, R=43659, W=43659, U=0, E=0)
+2026-06-28 12:24:05.011 - Formula.0 - Finished processing (I=0, O=0, R=43659, W=43659, U=0, E=0)
+2026-06-28 12:24:05.015 - Admission Risk Score.0 - Finished processing (I=0, O=0, R=43659, W=43659, U=0, E=0)
+2026-06-28 12:24:05.528 - Test Risk Score.0 - Finished processing (I=0, O=0, R=43659, W=43659, U=0, E=0)
+2026-06-28 12:24:06.675 - Calculator 2.0 - Finished processing (I=0, O=0, R=43659, W=43659, U=0, E=0)
+2026-06-28 12:24:07.759 - Filter rows 2.0 - Finished processing (I=0, O=0, R=43659, W=43659, U=0, E=0)
+2026-06-28 12:24:08.830 - Formula 2.0 - Finished processing (I=0, O=0, R=43659, W=87318, U=0, E=0)
+2026-06-28 12:24:08.861 - Text file output.0 - Finished processing (I=0, O=43661, R=43659, W=43659, U=0, E=0)
+2026-06-28 12:24:09.929 - Table output.0 - Finished processing (I=0, O=43659, R=43659, W=43659, U=0, E=0)
