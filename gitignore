@@ -1,0 +1,20 @@
+# Pentaho run logs
+logs/*.txt
+logs/*.log
+!logs/.gitkeep
+
+# Pentaho local files
+*.kjb.bak
+*.ktr.bak
+.kettle/
+kettle.properties
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Power BI temp
+~$*.pbix
